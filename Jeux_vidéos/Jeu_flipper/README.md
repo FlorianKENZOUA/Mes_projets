@@ -31,7 +31,7 @@ Il propose une simulation simple mais dynamique d’un flipper, avec physique r�
 
 ## 👥 Développeurs
 
-- **Amine Muskud** – ESIEE Paris, filière E3S  
+- **Daryl Coddeville** – ESIEE Paris, filière E3FD  
 - **Florian Kenzoua** – ESIEE Paris, filière E3FD
 
 ---
