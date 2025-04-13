@@ -8,7 +8,7 @@ Il propose une simulation simple mais dynamique d’un flipper, avec physique r�
 ## ⚙️ Technologies utilisées
 
 - **Langage** : C++
-- **Librairie graphique** : [G2D](https://github.com/ESIEE-Paris/g2d) – Simple 2D Game Engine
+- **Librairie graphique** : GD2 – Simple 2D Game Engine
 
 ---
 
@@ -27,4 +27,11 @@ Il propose une simulation simple mais dynamique d’un flipper, avec physique r�
 
 > ⚠️ Pré-requis : installation de la librairie G2D
 
+---
 
+## 👥 Développeurs
+
+- **Amine Muskud** – ESIEE Paris, filière E3S  
+- **Florian Kenzoua** – ESIEE Paris, filière E3FD
+
+---
