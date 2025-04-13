@@ -14,7 +14,7 @@ Ce dossier contient tous les fichiers nécessaires à l'exécution du programme 
   2. **Prédiction de chrono** basé sur des données antérieures (stratégie de prédiction de performance).
 
 ### 📚 Documentation
-- `Carrousel_2.pdf` : Document destiné à vulgariser et présenter de manière simplifiée le fonctionnement de l'algorithme sur .
+- `Carrousel_2.pdf` : Document destiné à vulgariser et présenter de manière simplifiée le fonctionnement de l'algorithme sur [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/florian-kenzoua).
 - `Carrousel_3.pdf` : Suite de la documentation visuelle, expliquant les résultats et applications possibles de l'algorithme.
 
 ---
