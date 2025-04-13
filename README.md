@@ -21,7 +21,7 @@ Modélisation relationnelle, SQL, création de schémas, interrogation de bases,
 ### 📊 Data Science
 Analyse exploratoire, visualisation, machine learning, traitement de données variées.
 
-## 🔐 Cybersécurité
+### 🔐 Cybersécurité
 Scripts et projets en lien avec la sécurité informatique, le chiffrement, la cryptographie ou l’analyse de vulnérabilités.
 
 ---
