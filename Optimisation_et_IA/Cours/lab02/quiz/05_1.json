@@ -1,0 +1,54 @@
+[
+    {
+        "question": "What is a constraint?",
+        "type": "choice",
+        "answers": [
+            {
+                "answer": "A condition on the function of an optimization problem",
+                "correct": false,
+                "feedback": "The constraints are not enforced on the values of a function"
+            },
+            {
+                "answer": "A condition on the variables of an optimization problem",
+                "correct": true,
+                "feedback": "Correct"
+            },
+            {
+                "answer": "A subset of points",
+                "correct": true,
+                "feedback": "Correct - A constraint is equivalent to a subset"
+            },
+            {
+                "answer": "An equality, inequality, etc",
+                "correct": true,
+                "feedback": "Correct - This is how a constraint is normally specified"
+            }
+        ]
+    },
+    {
+        "question": "What is the normal cone?",
+        "type": "choice",
+        "answers": [
+            {
+                "answer": "All vectors originating at a given point and oriented 'internally' to a subset",
+                "correct": false,
+                "feedback": "Wrong - Normal does not mean 'internal'"
+            },
+            {
+                "answer": "All vectors originating at a given point and oriented 'tangentially' to a subset",
+                "correct": false,
+                "feedback": "Wrong - Normal does not mean 'tangent'"
+            },
+            {
+                "answer": "All vectors originating at a given point and oriented 'orthogonally' to a subset",
+                "correct": true,
+                "feedback": "Correct - Normal is 'orthogonal'"
+            },
+            {
+                "answer": "All vectors originating at a given point and oriented 'orthogonally' to the gradient",
+                "correct": false,
+                "feedback": "Wrong - The normal cone is defined with respect to a subset, not the gradient"
+            }
+        ]
+    }
+]

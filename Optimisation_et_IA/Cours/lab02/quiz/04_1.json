@@ -1,0 +1,83 @@
+[
+    {
+        "question": "What is the derivative of a function with one variable?",
+        "type": "choice",
+        "answers": 
+        [
+            {
+                "answer": "How much the value of a function changes with respect to a change in its argument",
+                "correct": true,
+                "feedback": "Correct"
+            },
+            {
+                "answer": "The slope of a secant line to the function graph",
+                "correct": false,
+                "feedback": "One detail is wrong"
+            },
+            {
+                "answer": "The slope of a tangent line to the function graph",
+                "correct": true,
+                "feedback": "Correct"
+            },
+            {
+                "answer": "The intercept of a tangent line to the function graph",
+                "correct": false,
+                "feedback": "One detail is wrong"
+            }
+        ]
+    },
+    {
+        "question": "What is the gradient of a function with multiple variables?",
+        "type": "choice",
+        "answers": 
+        [
+            {
+                "answer": "A partial derivative of the function with respect to a single coordinate",
+                "correct": false,
+                "feedback": "Wrong"
+            },
+            {
+                "answer": "A vector with all the partial derivatives of the function",
+                "correct": true,
+                "feedback": "Correct"
+            },
+            {
+                "answer": "The slopes of a tangent hyperplane to the function graph",
+                "correct": true,
+                "feedback": "Correct"
+            },
+            {
+                "answer": "The total derivative of the function",
+                "correct": false,
+                "feedback": "Wrong."
+            }
+        ]
+    },
+    {
+        "question": "When a function is said to be differentiable?",
+        "type": "choice",
+        "answers": 
+        [
+            {
+                "answer": "If the derivative exists everywhere except on a set of measure zero",
+                "correct": false,
+                "feedback": "Wrong - This is 'differentiable almost everywhere'"
+            },
+            {
+                "answer": "If the derivative exists everywhere (i.e., at any point of the domain)",
+                "correct": true,
+                "feedback": "Correct"
+            },
+            {
+                "answer": "If the derivative exists everywhere AND the derivative function is continuous",
+                "correct": false,
+                "feedback": "Wrong - This is 'continuously differentiable'"
+            },
+            {
+                "answer": "If the derivative exists everywhere AND the derivative function is limited in how fast it can change",
+                "correct": false,
+                "feedback": "Wrong - This is 'Lipschitz differentiable'"
+            }
+        ]
+    }
+]

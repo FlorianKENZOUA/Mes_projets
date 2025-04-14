@@ -1,0 +1,110 @@
+[
+    {
+        "question": "When is gradient descent assured to find a global minimum?",
+        "type": "choice",
+        "answers": 
+        [
+            {
+                "answer": "When the function is nonconvex",
+                "correct": false,
+                "feedback": "Wrong"
+            },
+            {
+                "answer": "When the function is convex",
+                "correct": true,
+                "feedback": "Correct - All stationary points of a convex function are global minima"
+            },
+            {
+                "answer": "When the function is coercive",
+                "correct": false,
+                "feedback": "Wrong"
+            },
+            {
+                "answer": "When the function is linear",
+                "correct": false,
+                "feedback": "Wrong"
+            }
+        ]
+    },
+    {
+        "question": "What is required for gradient descent to converge?",
+        "type": "choice",
+        "answers": 
+        [
+            {
+                "answer": "The step-size must be large",
+                "correct": false,
+                "feedback": "Wrong - If the step-size is too large, the algorithm may diverge"
+            },
+            {
+                "answer": "The step-size must be sufficiently small",
+                "correct": true,
+                "feedback": "Correct"
+            },
+            {
+                "answer": "The number of iterations must be small",
+                "correct": false,
+                "feedback": "Wrong - The algorithm should run until the convergence plot goes flat"
+            },
+            {
+                "answer": "The number of iterations must be large enough to ensure convergence",
+                "correct": true,
+                "feedback": "Correct"
+            }
+        ]
+    },
+    {
+        "question": "Does the initial point affect the solution found by gradient descent?",
+        "type": "choice",
+        "answers":
+        [
+            {
+                "answer": "When the function is strongly convex",
+                "correct": false,
+                "feedback": "Wrong - The minimum is unique and the algorithm will find it regardless"
+            },
+            {
+                "answer": "When the function is nonconvex",
+                "correct": true,
+                "feedback": "Correct - The algorithm stops as soon as it finds a stationary point"
+            },
+            {
+                "answer": "When the function is convex",
+                "correct": false,
+                "feedback": "Wrong - The algorithm may find a different global minimum based on the initialization, but they are all equally valid"
+            },
+            {
+                "answer": "When the function is coercive",
+                "correct": false,
+                "feedback": "Wrong - Coercivity is not relevant for this question"
+            }
+        ]
+    },
+    {
+        "question": "What constraints can be removed from an optimization problem?",
+        "type": "choice",
+        "answers":
+        [
+            {
+                "answer": "An equality constraint that implicitly defines the substitution of a variable",
+                "correct": true,
+                "feedback": "Correct"
+            },
+            {
+                "answer": "No constraints of any kind",
+                "correct": false,
+                "feedback": "Wrong - Some constraints can be removed by a proper change of variables"
+            },
+            {
+                "answer": "Any equality constraint",
+                "correct": false,
+                "feedback": "Wrong - Not every equality constraint allows the substitution of a variable"
+            },
+            {
+                "answer": "Any inequality constraint",
+                "correct": false,
+                "feedback": "Wrong - Inequality constraints never allow the substitution of a variable"
+            }
+        ]
+    }
+]

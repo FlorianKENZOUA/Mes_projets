@@ -1,0 +1,117 @@
+[
+    {
+        "question": "What is the feasible set?",
+        "type": "choice",
+        "answers": 
+        [
+            {
+                "answer": "The subset of points that verify all the constraints of an optimization problem",
+                "correct": true,
+                "feedback": "Correct"
+            },
+            {
+                "answer": "The space R<sup>N</sup><br>(N = number of variables)",
+                "correct": false,
+                "feedback": "Wrong - The feasible set is a subset of R^N"
+            }
+        ]
+    },
+    {
+        "question": "What is a constrained minimum?",
+        "type": "choice",
+        "answers": 
+        [
+            {
+                "answer": "A point of R<sup>N</sup> where the cost function attains its minimum value",
+                "correct": false,
+                "feedback": "Wrong - This is not always a feasible solution"
+            },
+            {
+                "answer": "A point of the feasible set",
+                "correct": false,
+                "feedback": "Wrong - This is not always an optimal solution"
+            },
+            {
+                "answer": "A point of the feasible set where the cost function attains its minimum value",
+                "correct": true,
+                "feedback": "Correct"
+            },
+            {
+                "answer": "An optimal solution to a constrained optimization problem",
+                "correct": true,
+                "feedback": "Correct"
+            }
+        ]
+    },
+    {
+        "question": "Where can be found a constrained minimum?",
+        "type": "choice",
+        "answers": 
+        [
+            {
+                "answer": "Always at the absolute minimum of the cost function",
+                "correct": false,
+                "feedback": "Wrong - The absolute minimum could be outside the feasible set"
+            },
+            {
+                "answer": "On the boundary of the feasible set",
+                "correct": true,
+                "feedback": "Correct - In this case, the gradient is orthogonal to the feasible set"
+            },
+            {
+                "answer": "At the interior of the feasible set",
+                "correct": true,
+                "feedback": "Correct - In this case, the gradient is zero"
+            },
+            {
+                "answer": "Never at the absolute minimum of the cost function",
+                "correct": false,
+                "feedback": "Wrong - The absolute minimum could be inside the feasible set"
+            }
+        ]
+    },
+    {
+        "question": "What is the optimality condition for constrained optimization?",
+        "type": "choice",
+        "answers": 
+        [
+            {
+                "answer": "The negative gradient is always zero",
+                "correct": false,
+                "feedback": "Wrong - Only if the solution is at the interior of the feasible set"
+            },
+            {
+                "answer": "The negative gradient is always orthogonal to the feasible set",
+                "correct": false,
+                "feedback": "Wrong - Only if the solution is on the boundary of the feasible set"
+            },
+            {
+                "answer": "The negative gradient is either zero or orthogonal to the feasible set",
+                "correct": true,
+                "feedback": "Correct"
+            },
+            {
+                "answer": "The negative gradient belongs to the normal cone",
+                "correct": true,
+                "feedback": "Correct"
+            }
+        ]
+    },
+    {
+        "question": "In what case the optimality condition is sufficient?",
+        "type": "choice",
+        "answers": 
+        [
+            {
+                "answer": "The feasible set is convex - AND - the cost function is convex",
+                "correct": true,
+                "feedback": "Correct"
+            },
+            {
+                "answer": "The feasible set is convex - OR - the cost function is convex",
+                "correct": false,
+                "feedback": "Wrong"
+            }
+        ]
+    }
+]

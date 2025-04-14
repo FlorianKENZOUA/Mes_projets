@@ -1,0 +1,103 @@
+[
+    {
+        "question": "How to solve a constrained optimization problem?",
+        "type": "choice",
+        "answers": 
+        [
+            {
+                "answer": "Run the algorithm 'projected gradient descent'",
+                "correct": true,
+                "feedback": "Correct"
+            },
+            {
+                "answer": "Run the algorithm 'gradient descent'",
+                "correct": false,
+                "feedback": "Wrong"
+            },
+            {
+                "answer": "Apply the substitution method, then run the algorithm 'gradient descent'",
+                "correct": true,
+                "feedback": "Correct - Although the substitution method cannot be always applied..."
+            },
+            {
+                "answer": "Apply the substitution method, then run the algorithm 'projected gradient descent'",
+                "correct": false,
+                "feedback": "Wrong"
+            }
+        ]
+    },
+    {
+        "question": "What are the major drawbacks of 'projected gradient descent'?",
+        "type": "choice",
+        "answers": 
+        [
+            {
+                "answer": "The convergence is only to a local minimum of the feasible set",
+                "correct": false,
+                "feedback": "Wrong - Not an issue if the optimization problem is convex."
+            },
+            {
+                "answer": "It requires the expression of the cost function",
+                "correct": false,
+                "feedback": "Wrong - This requirement is not very restrictive"
+            },
+            {
+                "answer": "It requires the orthogonal projection onto the feasible set",
+                "correct": true,
+                "feedback": "Correct - The projection can be very hard to compute with complex constraints"
+            },
+            {
+                "answer": "A step-size must be provided",
+                "correct": false,
+                "feedback": "Wrong - This is true for any optimization algorithm"
+            }
+        ]
+    },
+    {
+        "question": "When is it appropriate to use 'projected gradient descent'?",
+        "type": "choice",
+        "answers": 
+        [
+            {
+                "answer": "All constraints are 'boxes' on the variables",
+                "correct": true,
+                "feedback": "Correct - The projection exists in closed form"
+            },
+            {
+                "answer": "The constraint is a simplex",
+                "correct": true,
+                "feedback": "Correct - The projection exists in closed form"
+            },
+            {
+                "answer": "The constraint is a L1-ball or L2-ball",
+                "correct": true,
+                "feedback": "Correct - The projection exists in closed form"
+            },
+            {
+                "answer": "All constraints are linear equations",
+                "correct": true,
+                "feedback": "Correct - The projection exists in closed form"
+            },
+            {
+                "answer": "All constraints are linear inequalities",
+                "correct": true,
+                "feedback": "Correct - The projection can be computed by Newton algorithm"
+            },
+            {
+                "answer": "There are few constraints and all are convex.",
+                "correct": true,
+                "feedback": "Correct - The projection can be efficiently computed by specific algorithms"
+            },
+            {
+                "answer": "There are many convex constraints",
+                "correct": false,
+                "feedback": "Wrong - Better use Lagrangian duality or interior-point methods"
+            },
+            {
+                "answer": "Constraints are nonconvex",
+                "correct": false,
+                "feedback": "Wrong - Maybe the problem should be reformulated..."
+            }
+        ]
+    }
+]

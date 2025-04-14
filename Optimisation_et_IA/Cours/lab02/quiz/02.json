@@ -1,0 +1,248 @@
+[
+    {
+        "question": "What is a global minimum?",
+        "type": "choice",
+        "answers": 
+        [
+            {
+                "answer": "A point attaining the lowest value of a function",
+                "correct": true,
+                "feedback": "Correct"
+            },
+            {
+                "answer": "A point attaining the highest value of a function",
+                "correct": false,
+                "feedback": "Wrong"
+            },
+            {
+                "answer": "A point attaining the lowest value of the function in a small neighborhood",
+                "correct": false,
+                "feedback": "Wrong"
+            },
+            {
+                "answer": "A point where the derivative is equal to zero",
+                "correct": false,
+                "feedback": "Wrong"
+            }
+        ]
+    },
+    {
+        "question": "What is a local minimum?",
+        "type": "choice",
+        "answers": 
+        [
+            {
+                "answer": "A point attaining the lowest value of a function",
+                "correct": false,
+                "feedback": "Wrong"
+            },
+            {
+                "answer": "A point attaining the highest value of a function",
+                "correct": false,
+                "feedback": "Wrong"
+            },
+            {
+                "answer": "A point attaining the lowest value of a function in a small neighborhood",
+                "correct": true,
+                "feedback": "Correct"
+            },
+            {
+                "answer": "A point where the derivative is equal to zero",
+                "correct": false,
+                "feedback": "Wrong"
+            }
+        ]
+    },
+    {
+        "question": "What is a coercive function?",
+        "type": "choice",
+        "answers": 
+        [
+            {
+                "answer": "A function that grows to infinity along a direction",
+                "correct": false,
+                "feedback": "Wrong"
+            },
+            {
+                "answer": "A function that grows to infinity in all directions",
+                "correct": true,
+                "feedback": "Correct"
+            },
+            {
+                "answer": "A function that is always positive",
+                "correct": false,
+                "feedback": "Wrong"
+            },
+            {
+                "answer": "A function that tends asymptotically to a finite value",
+                "correct": false,
+                "feedback": "Wrong"
+            }
+        ]
+    },
+    {
+        "question": "Which of the following functions are coercive?",
+        "type": "choice",
+        "answers": 
+        [
+            {
+                "answer": "f(x) = x",
+                "correct": false,
+                "feedback": "Wrong"
+            },
+            {
+                "answer": "f(x) = x^2",
+                "correct": true,
+                "feedback": "Correct"
+            },
+            {
+                "answer": "f(x) = x^3",
+                "correct": false,
+                "feedback": "Wrong"
+            },
+            {
+                "answer": "f(x) = x^4",
+                "correct": true,
+                "feedback": "Correct"
+            },
+            {
+                "answer": "f(x) = 1/x",
+                "correct": false,
+                "feedback": "Wrong"
+            },
+            {
+                "answer": "f(x) = 1/x^2",
+                "correct": false,
+                "feedback": "Wrong"
+            }
+        ]
+    },
+    {
+        "question": "When a function is guaranteed to have *at least* one minimum?",
+        "type": "choice",
+        "answers": 
+        [
+            {
+                "answer": "When the function is continuous",
+                "correct": false,
+                "feedback": "Wrong"
+            },
+            {
+                "answer": "When the function is coercive",
+                "correct": false,
+                "feedback": "Wrong"
+            },
+            {
+                "answer": "When the function is continuous and coercive",
+                "correct": true,
+                "feedback": "Correct"
+            },
+            {
+                "answer": "When the function is differentiable and coercive",
+                "correct": true,
+                "feedback": "Correct"
+            }
+        ]
+    },
+    {
+        "question": "Which of the following problems are equivalent?",
+        "type": "choice",
+        "answers": 
+        [
+            {
+                "answer": "minimize J(w)  and  maximize J(w)",
+                "correct": false,
+                "feedback": "Wrong"
+            },
+            {
+                "answer": "minimize J(w)  and  minimize 2 J(w) + 4",
+                "correct": true,
+                "feedback": "Correct"
+            },
+            {
+                "answer": "minimize J(w)  and  minimize log( J(w) )",
+                "correct": true,
+                "feedback": "Correct"
+            },
+            {
+                "answer": "minimize J(w)  and  maximize -log( J(w) )",
+                "correct": true,
+                "feedback": "Correct"
+            }
+        ]
+    },
+    {
+        "question": "About the *grid search* method (check all that apply)",
+        "type": "choice",
+        "answers": 
+        [
+            {
+                "answer": "It is a local optimization method",
+                "correct": false,
+                "feedback": "Wrong"
+            },
+            {
+                "answer": "It is a global optimization method",
+                "correct": true,
+                "feedback": "Correct"
+            },
+            {
+                "answer": "It works well with high-dimensional functions",
+                "correct": false,
+                "feedback": "Wrong"
+            },
+            {
+                "answer": "It may get stuck into a local minimum",
+                "correct": false,
+                "feedback": "Wrong"
+            },
+            {
+                "answer": "Multiple points are evaluated at once",
+                "correct": true,
+                "feedback": "Correct"
+            },
+            {
+                "answer": "Multiple directions are tested at each iteration",
+                "correct": false,
+                "feedback": "Wrong"
+            }
+        ]
+    },
+    {
+        "question": "About the *random search* method (check all that apply)",
+        "type": "choice",
+        "answers": 
+        [
+            {
+                "answer": "It is a global optimization method",
+                "correct": false,
+                "feedback": "Wrong"
+            },
+            {
+                "answer": "It is a local optimization method",
+                "correct": true,
+                "feedback": "Correct"
+            },
+            {
+                "answer": "It works well with high-dimensional functions",
+                "correct": false,
+                "feedback": "Wrong"
+            },
+            {
+                "answer": "It may get stuck into a local minimum",
+                "correct": true,
+                "feedback": "Correct"
+            },
+            {
+                "answer": "Multiple points are evaluated at once",
+                "correct": false,
+                "feedback": "Wrong"
+            },
+            {
+                "answer": "Multiple directions are evaluated at each iteration",
+                "correct": true,
+                "feedback": "Correct"
+            }
+        ]
+    }
+]

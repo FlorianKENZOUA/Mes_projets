@@ -1,0 +1,74 @@
+[
+    {
+        "question": "What is the orthogonal projection?",
+        "type": "choice",
+        "answers": 
+        [
+            {
+                "answer": "The point of a subset that is closest to a given point",
+                "correct": true,
+                "feedback": "Correct"
+            },
+            {
+                "answer": "The point of a subset that is farthest from a given point",
+                "correct": false,
+                "feedback": "Wrong"
+            }
+        ]
+    },
+    {
+        "question": "What inputs are required by the projected gradient descent?",
+        "type": "choice",
+        "answers": 
+        [
+            {
+                "answer": "The function to minimize",
+                "correct": true,
+                "feedback": "Correct"
+            },
+            {
+                "answer": "An initial point",
+                "correct": true,
+                "feedback": "Correct"
+            },
+            {
+                "answer": "The step-size and the number of iterations",
+                "correct": true,
+                "feedback": "Correct"
+            },
+            {
+                "answer": "The projection onto the feasible set",
+                "correct": true,
+                "feedback": "Correct"
+            }
+
+        ]
+    },
+    {
+        "question": "Where does the algorithm stop at?",
+        "type": "choice",
+        "answers": 
+        [
+            {
+                "answer": "A point where the negative gradient is orthogonal to the feasible set",
+                "correct": true,
+                "feedback": "Correct"
+            },
+            {
+                "answer": "A point of the feasible set where the gradient is zero",
+                "correct": true,
+                "feedback": "Correct"
+            },
+            {
+                "answer": "A minimum of the cost function",
+                "correct": false,
+                "feedback": "Wrong - This point may be outside the feasible set"
+            },
+            {
+                "answer": "A stationary point of the cost function",
+                "correct": false,
+                "feedback": "Wrong -  This point may be outside the feasible set"
+            }
+        ]
+    }
+]

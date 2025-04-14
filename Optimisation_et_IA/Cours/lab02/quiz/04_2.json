@@ -1,0 +1,112 @@
+[
+    {
+        "question": "At what points does the gradient of a function equal zero?",
+        "type": "choice",
+        "answers": 
+        [
+            {
+                "answer": "Local minima and maxima",
+                "correct": true,
+                "feedback": "Correct"
+            },
+            {
+                "answer": "Global minima and maxima",
+                "correct": true,
+                "feedback": "Correct"
+            },
+            {
+                "answer": "Saddle points",
+                "correct": true,
+                "feedback": "Correct"
+            },
+            {
+                "answer": "Non-stationary points of inflection",
+                "correct": false,
+                "feedback": "Wrong"
+            }
+        ]
+    },
+    {
+        "question": "When does the algorithm of gradient descent stop?",
+        "type": "choice",
+        "answers": 
+        [
+            {
+                "answer": "When it finds a global minimum",
+                "correct": true,
+                "feedback": "Correct"
+            },
+            {
+                "answer": "When it finds a local minimum",
+                "correct": true,
+                "feedback": "Correct"
+            },
+            {
+                "answer": "When it finds a saddle point",
+                "correct": true,
+                "feedback": "Correct"
+            },
+            {
+                "answer": "When it finds a non-stationary point of inflection",
+                "correct": false,
+                "feedback": "Wrong - The gradient is not zero at this point!"
+            }
+        ]
+    },
+    {
+        "question": "What inputs are required by the algorithm of gradient descent?",
+        "type": "choice",
+        "answers": 
+        [
+            {
+                "answer": "The function to minimize",
+                "correct": true,
+                "feedback": "Correct"
+            },
+            {
+                "answer": "An initial point",
+                "correct": true,
+                "feedback": "Correct"
+            },
+            {
+                "answer": "The step-size",
+                "correct": true,
+                "feedback": "Correct"
+            },
+            {
+                "answer": "The number of iterations",
+                "correct": true,
+                "feedback": "Correct"
+            }
+
+        ]
+    },
+    {
+        "question": "How should the initial point be chosen?",
+        "type": "choice",
+        "answers": 
+        [
+            {
+                "answer": "A vector of size equal to the number of variables in the cost function",
+                "correct": true,
+                "feedback": "Correct"
+            },
+            {
+                "answer": "A random number",
+                "correct": false,
+                "feedback": "Wrong - The initial point must be an array"
+            },
+            {
+                "answer": "A vector of any size",
+                "correct": false,
+                "feedback": "Wrong - The size depends on the cost function"
+            },
+            {
+                "answer": "A minimum of the cost function",
+                "correct": false,
+                "feedback": "Wrong - You don't know a minimum before running the algorithm"
+            }
+
+        ]
+    }
+]
